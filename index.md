@@ -47,11 +47,13 @@ For your second milestone, explain what you've worked on since your previous mil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CaCazFBhYKs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your first milestone, describe what your project is and how you plan to build it. You can include:
-- An explanation about the different components of your project and how they will all integrate together
-- Technical progress you've made so far
-- Challenges you're facing and solving in your future milestones
-- What your plan is to complete your project
+For my first milestone in the BlueStamp Engineering Remote Program, I completed the base version of my Arduino robotic arm. This milestone focused on assembling the hardware, wiring all of the electronic components, and developing the software needed to control the arm.
+
+The robot consists of four servo motors that provide movement at the  base, shoulder, elbow, and gripper joints. Each servo is controlled using two joystick modules, allowing the arm to move smoothly in real time. The joystick modules output analog voltage signals that the Arduino reads through its analog input pins. The Arduino then converts these values into servo angles, enabling intuitive manual control of each joint.
+
+One of the biggest challenges during this milestone was correctly wiring the joystick modules and servos while managing power distribution and signal connections. I also spent time debugging the code to eliminate jitter and ensure stable, responsive control of the servos, especially the one that moved the gripper.
+
+With the base project now complete, my future milestones will focus on improving the robotic arm's capabilities by customizing the code the induce different motor functions, replacing the various weak servos, and providing the robot with a compact and accesible enclosure built for functionality. This milestone establishes a solid hardware and software foundation for the rest of the project.
 
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
