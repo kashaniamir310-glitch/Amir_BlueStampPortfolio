@@ -43,8 +43,6 @@ For your second milestone, explain what you've worked on since your previous mil
 
 # First Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
-
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RoVlW-vudJY?si=_0385IkFJLN00zUr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 
@@ -52,7 +50,7 @@ For my first milestone in the BlueStamp Engineering Remote Program, I completed 
 
 The robot consists of four servo motors that provide movement at the  base, shoulder, elbow, and gripper joints. Each servo is controlled using two joystick modules, allowing the arm to move smoothly in real time. The joystick modules output analog voltage signals that the Arduino reads through its analog input pins. The Arduino then converts these values into servo angles, enabling intuitive manual control of each joint.
 
-One of the biggest challenges during this milestone was correctly wiring the joystick modules and servos while managing power distribution and signal connections. I also spent time debugging the code to eliminate jitter and ensure stable, responsive control of the servos, especially the one that moved the gripper.
+One of the biggest challenges during this milestone was eliminating jittering and the unreponsive control of the servo that flexed and extended the gripper. This occured due to the short-circuiting of the Nano Shield that was connected to my microcontroller. In order to fix it, I removed all but one of the copper pillars that were touching the soldered pins under the shield. 
 
 With the base project now complete, my future milestones will focus on improving the robotic arm's capabilities by customizing the code the induce different motor functions, replacing the various weak servos, and providing the robot with a compact and accesible enclosure built for functionality. This milestone establishes a solid hardware and software foundation for the rest of the project.
 
