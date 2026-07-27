@@ -1,7 +1,6 @@
 # Three-Jointed Robotic Arm
-Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
 
-You should comment out all portions of your portfolio that you have not completed yet, as well as any instructions:
+For this project, I built and coded a three jointed robotic arm that uses an Arduino Nano, four servo motors, and a dual joystick module. Throughput this project, I had endured many different triumphs and challenge. One such victory was finally torqueing down the last annoying screw, ready to debug and add modifications. One challenge that I encountered was having to deal with a jittery gripper due to short-circuit. I fixed this issue by removing all but one of the copper pillars holding up the Arduino so the pillars don't touch the soldered pins from below. Overall, this project was great!
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
