@@ -50,9 +50,8 @@ One of the biggest challenges during this milestone was eliminating jittering an
 With the base project now complete, my future milestones will focus on improving the robotic arm's capabilities by customizing the code the induce different motor functions, replacing the various weak servos, and providing the robot with a compact and accesible enclosure built for functionality. This milestone establishes a solid hardware and software foundation for the rest of the project.
 
 # Schematics 
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-
+Base Project Schematic:
 <img width="630" height="667" alt="image" src="https://github.com/user-attachments/assets/38c5763a-7fbd-4b18-a5b7-0a6772251e88" />
 
 
