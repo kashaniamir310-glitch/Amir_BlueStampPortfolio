@@ -52,7 +52,8 @@ With the base project now complete, my future milestones will focus on improving
 # Schematics 
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
-Opera Snapshot_2026-07-28_151202_app.diagrams.net.png
+
+<img width="630" height="667" alt="image" src="https://github.com/user-attachments/assets/38c5763a-7fbd-4b18-a5b7-0a6772251e88" />
 
 
 # Code
