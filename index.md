@@ -43,25 +43,7 @@ Base Project Schematic:
 
 # Code
 
-<div style="
-  height: 350px;
-  overflow-y: auto;
-  overflow-x: hidden;
-  background-color: #1e1e1e;
-  color: white;
-  padding: 15px;
-  border-radius: 8px;
-">
-  <pre style="
-    margin: 0;
-    white-space: pre-wrap;
-    overflow-wrap: anywhere;
-    word-break: break-word;
-    font-family: Consolas, monospace;
-    font-size: 14px;
-    line-height: 1.5;
-  "><code>
-```c++
+
 #include "src/CokoinoArm.h"
 
 #define buzzerPin 9
