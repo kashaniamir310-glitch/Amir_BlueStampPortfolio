@@ -1,4 +1,4 @@
-# Three-Jointed Robotic Arm
+<img width="660" height="863" alt="image" src="https://github.com/user-attachments/assets/6d85501a-756b-4535-802f-86ce66fb7d57" /># Three-Jointed Robotic Arm
 
 For this project, I built and programmed a three-jointed robotic arm using an Arduino Nano, four servo motors, and a dual joystick module. Throughout the project, I experienced both successes and challenges that helped strengthen my engineering and problem solving skills. One of my biggest accomplishments was finally tightening the last screw of the robot and preparing to debug the system and add modifications. One challenge I encountered was a jittery gripper caused by a short circuit. After troubleshooting the issue, I discovered that the copper standoffs supporting the Arduino were touching the soldered pins underneath the board. I resolved the problem by removing all but one of the copper standoffs, which prevented unwanted electrical contact and restored smooth operation. Overall, this project was a valuable and enjoyable experience that improved my understanding of electronics, programming, and mechanical assembly.
 
@@ -6,7 +6,7 @@ For this project, I built and programmed a three-jointed robotic arm using an Ar
 |:--:|:--:|:--:|:--:|
 | Amir Kashani | Rochester Mayo High School | Biomedical Engineering | Incoming Freshman
 
-<img alt="IMG_1124" src="https://github.com/user-attachments/assets/6662adcb-753d-42bb-aaf3-503bb3e64980" />
+<img width="660" height="500" alt="IMG_1124" src="https://github.com/user-attachments/assets/6662adcb-753d-42bb-aaf3-503bb3e64980" />
 
   
 # Final Milestone
