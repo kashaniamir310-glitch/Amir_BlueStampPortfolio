@@ -6,7 +6,7 @@ For this project, I built and programmed a three-jointed robotic arm using an Ar
 |:--:|:--:|:--:|:--:|
 | Amir Kashani | Rochester Mayo High School | Biomedical Engineering | Incoming Freshman
 
-<img width="660" height="500" alt="IMG_1124" src="https://github.com/user-attachments/assets/6662adcb-753d-42bb-aaf3-503bb3e64980" />
+<img width="660" height="480" alt="IMG_1124" src="https://github.com/user-attachments/assets/6662adcb-753d-42bb-aaf3-503bb3e64980" />
 
   
 # Final Milestone
