@@ -343,8 +343,8 @@ Don't forget to place the link of where to buy each component inside the quotati
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | LK COKOINO Robot Arm for Arduino Kit | Contains most of the electronics and structural parts to effectively build the robot arm | 67.59 USD | <a href="https://www.ebay.com/itm/198408400389?_trkparms=itmf%3D1%26aid%3D1110006%26rkt%3D5%26pid%3D101224%26mech%3D1%26algv%3DSimOrganicCassiniWithToraRecalls%26pmt%3D1%26amclksrc%3DITM%26sd%3D157474275192%26sid%3DAQALAAAAEGBkDzBJog7ypwIqS4R9%2Fyc%3D%26itm%3D198408400389%26noa%3D1%26plcampt%3D0%3A156209825015%26algo%3DHOMESPLICE.SIM%26brand%3DArduino%26asc%3D20200818143230%26ao%3D1%26rk%3D1%26mehot%3Dnone%26lsid%3D0%26meid%3D45a14a6229e74a4287ac2b1e6d9a37f0%26pg%3D2332490&_trksid=p2332490.c101224.m-1"> eBay </a> |
-| 8-Pack 9V Long-Lasting Alkaline Batteries | Powering the robot arm with voltage | 12.69 USD | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S?th=1"> Amazon </a> |
+| 8-Pack 9V Long-Lasting Alkaline Batteries | Powering the robot arm with voltage | 12.69 USD | <a href="https://www.amazon.com/Amazon-Basics-Performance-All-Purpose-Batteries/dp/B00MH4QM1S?th=1"> Amazon </a> |
+| Item Name | What the item is used for | $Price | <a href=""> Link </a> |
 
 # Other Resources/Examples
 One of the best parts about Github is that you can view how other people set up their own work. Here are some past BSE portfolios that are awesome examples. You can view how they set up their portfolio, and you can view their index.md files to understand how they implemented different portfolio components.
