@@ -1,6 +1,6 @@
-# Three-Jointed Robotic Arm
+# Rock-Paper-Scissors Robotic Arm
 
-For this project, I built and programmed a three-jointed robotic arm using an Arduino Nano, four servo motors, and a dual joystick module. Throughout the project, I experienced both successes and challenges that helped strengthen my engineering and problem solving skills. One of my biggest accomplishments was finally tightening the last screw of the robot and preparing to debug the system and add modifications. One challenge I encountered was a jittery gripper caused by a short circuit. After troubleshooting the issue, I discovered that the copper standoffs supporting the Arduino were touching the soldered pins underneath the board. I resolved the problem by removing all but one of the copper standoffs, which prevented unwanted electrical contact and restored smooth operation. Overall, this project was a valuable and enjoyable experience that improved my understanding of electronics, programming, and mechanical assembly.
+For this project, I built and programmed a three-jointed robotic arm using an Arduino Nano, four servo motors, and a dual joystick module, then expanded it with a push button and RGB LED so the arm could play Rock, Paper, Scissors against a human opponent. Throughout the project, I experienced both successes and challenges that helped strengthen my engineering and problem solving skills. One of my biggest accomplishments was finally tightening the last screw of the robot and preparing to debug the system and add modifications, which led directly into building and calibrating the full Rock, Paper, Scissors game mode. One challenge I encountered was a jittery gripper caused by a short circuit. After troubleshooting the issue, I discovered that the copper standoffs supporting the Arduino were touching the soldered pins underneath the board. I resolved the problem by removing all but one of the copper standoffs, which prevented unwanted electrical contact and restored smooth operation. A second challenge came later, when a replacement shoulder servo began stalling and humming on startup because its horn was mounted off center from the arm's linkage; recentering the horn resolved the issue. Overall, this project was a valuable and enjoyable experience that improved my understanding of electronics, programming, mechanical assembly, and hardware troubleshooting.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
@@ -11,15 +11,16 @@ For this project, I built and programmed a three-jointed robotic arm using an Ar
   
 # Final Milestone
 
-**Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.**
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CoNUJb8S37w?si=68ZiohVjbKnsNqec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
-For your final milestone, explain the outcome of your project. Key details to include are:
-- What you've accomplished since your previous milestone
-- What your biggest challenges and triumphs were at BSE
-- A summary of key topics you learned about
-- What you hope to learn in the future after everything you've learned at BSE
+For my final milestone in the BlueStamp Engineering Remote Program, I completed a Rock, Paper, Scissors mode for my Arduino robotic arm. This milestone focused on adding a new push button and RGB LED to the existing hardware, and writing the software needed to let the arm play the game against a human opponent using its gripper.
+
+A single push button now toggles the arm between its original joystick-controlled mode and the new game mode. In game mode, the RGB LED changes color to show the current stage, and the system reads the player's move from the right joystick's position while the robot selects its own move at random. The robot then displays its choice by closing, opening, or partially opening the gripper, the same way a person would show rock, paper, or scissors with their hand, and the LED lights up to show who won. All of this runs on the same Arduino Nano and servos from the base project, controlled through a state machine that keeps the original manual controls and the new game logic separate in code.
+
+One of the biggest challenges during this milestone was a shoulder servo that began stalling and humming as soon as the arm powered on. This occurred because the servo horn was mounted at an angle that fought against the arm's linkage instead of moving freely with it. In order to fix it, I detached the horn, let the servo find its true center with nothing attached, and reattached the linkage in that position.
+
+With the game mode now complete, I plan to continue exploring robotics beyond this project, particularly computer vision for detecting a player's move without a joystick and PCB design for a more permanent build. This milestone completes the project and builds directly on the hardware and software foundation established earlier in the program.
 
 # First Milestone
 
@@ -30,9 +31,9 @@ For my first milestone in the BlueStamp Engineering Remote Program, I completed 
 
 The robot consists of four servo motors that provide movement at the  base, shoulder, elbow, and gripper joints. Each servo is controlled using two joystick modules, allowing the arm to move smoothly in real time. The joystick modules output analog voltage signals that the Arduino reads through its analog input pins. The Arduino then converts these values into servo angles, enabling intuitive manual control of each joint.
 
-One of the biggest challenges during this milestone was eliminating jittering and the unreponsive control of the servo that flexed and extended the gripper. This occured due to the short-circuiting of the Nano Shield that was connected to my microcontroller. In order to fix it, I removed all but one of the copper pillars that were touching the soldered pins under the shield. 
+One of the biggest challenges during this milestone was eliminating jittering and the unresponsive control of the servo that flexed and extended the gripper. This occured due to the short-circuiting of the Nano Shield that was connected to my microcontroller. In order to fix it, I removed all but one of the copper pillars that were touching the soldered pins under the shield. 
 
-With the base project now complete, my future milestones will focus on improving the robotic arm's capabilities by customizing the code the induce different motor functions, replacing the various weak servos, and providing the robot with a compact and accesible enclosure built for functionality. This milestone establishes a solid hardware and software foundation for the rest of the project.
+With the base project now complete, my future milestones will focus on improving the robotic arm's capabilities by customizing the code the induce different motor functions, replacing the various weak servos, and providing the robot with a compact and accessible enclosure built for functionality. This milestone establishes a solid hardware and software foundation for the rest of the project.
 
 # Schematics 
 
@@ -358,7 +359,7 @@ void loop() {
 
 # Other Resources/Examples
 
-- [Example 1](https://trashytuber.github.io/YimingJiaBlueStamp/)
-- [Example 2](https://sviatil0.github.io/Sviatoslav_BSE/)
-- [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
+- [Cokoino CKK0006 GitHub Repository](https://github.com/Cokoino/CKK0006)
+- [Arduino Debonuce Tutorial](https://docs.arduino.cc/built-in-examples/digital/Debounce/)
+- [Arduino Servo Library Reference](https://docs.arduino.cc/libraries/servo/)
 
