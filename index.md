@@ -42,8 +42,7 @@ Base Project Schematic:
 
 Modification Schematic:
 
-
-
+<img width="683" height="743" alt="image" src="https://github.com/user-attachments/assets/1f5a282c-c0fc-48e4-baae-14db2f8502c4" />
 
 # Code
 
