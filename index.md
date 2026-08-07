@@ -40,6 +40,10 @@ Base Project Schematic:
 
 <img width="630" height="667" alt="image" src="https://github.com/user-attachments/assets/38c5763a-7fbd-4b18-a5b7-0a6772251e88" />
 
+Modification Schematic:
+
+
+
 
 # Code
 
